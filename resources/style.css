@@ -151,11 +151,14 @@ footer img {
 	.banner {
 		margin-top: 5rem;
 		margin-right: 2rem;
+
+
 	}
 
 	.banner h1 {
-		padding: 0.75rem 4rem;
 		font-size: 1.33rem;
+		margin-top: 0.75rem 4rem;
+
 	}
 }
 
@@ -178,6 +181,8 @@ footer img {
 	.banner h1 {
 		padding: 1rem 0;
 		font-size: 1rem;
+
+
 
 	}
 
@@ -216,8 +221,11 @@ footer img {
 		margin-top: 1rem;
 		margin-bottom: 4rem;
 		font-size: 0.77rem;
-		
+
 	}
 
+	footer .container p {
+		display: none; 
+	}
 
 }
