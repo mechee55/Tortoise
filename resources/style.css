@@ -26,6 +26,7 @@ html, body {
 	padding: 1rem 2rem;
 }
 
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -43,12 +44,16 @@ li {
 	padding-left: 2rem;
 }
 
+.header-banner {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
 .banner {
 	background-color: white;
-	align-items: flex-end;
 	margin-top: 10rem;
-
-
+	margin-right: 2rem;
 }
 
 .banner h1 {
@@ -57,4 +62,77 @@ li {
 	font-size: 2rem;
 	line-height: 1.2;
 	padding: 1.5rem 5rem;
+	
 }
+
+.services .container {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	display: flex;
+	justify-content: center;
+
+	
+	
+}
+
+.service {
+	width: 5rem;
+	height: 8rem;
+	margin-right: 6rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#exam {
+	width: 3.5rem;
+	text-align: center;
+}
+
+#fittings, #delivery {
+	width: 5rem;
+}
+
+.company .container {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 5rem;
+
+}
+
+.about {
+	width: 35%;
+	margin-right: 5%;
+}
+
+.about h3 {
+	background-color: cadetblue; 
+	width: 10rem;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	padding: 0.5rem 1.25rem;
+
+}
+
+.about p {
+	margin-top: 1rem;
+}
+
+
+footer .container {
+	background-color: azure;
+	display: flex;
+	align-items: center;
+}
+
+footer img {
+	padding: 4rem 1rem 4rem 4rem;
+}
+}
+
+
+
