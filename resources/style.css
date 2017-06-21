@@ -38,8 +38,12 @@ html, body {
 
 }
 
+.nav-mobile  li {
+	display: none;
 
-li {
+}
+
+.nav li {
 	display: inline;
 	padding-left: 2rem;
 }
@@ -132,7 +136,88 @@ footer .container {
 footer img {
 	padding: 4rem 1rem 4rem 4rem;
 }
+
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	.main {
+		padding-top: 0;
+		height: 22rem;
+	}
+
+	.banner {
+		margin-top: 5rem;
+		margin-right: 2rem;
+	}
+
+	.banner h1 {
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
 }
 
+@media only screen and (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+
+	.main {
+		height: 17rem;
+		padding-top: 0;
+		background-position: 20%;
+	}
+
+	.banner {
+		margin-top: 9rem;
+
+	}
+
+	.banner h1 {
+		padding: 1rem 0;
+		font-size: 1rem;
+
+	}
+
+	.nav li {
+		display: none; 
+	}
+
+	.nav-mobile li {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.services .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
 
+
+		margin: 3.77rem 0;
+	}
+
+	#space {
+		margin-top: 1.54rem;
+	}
+
+	.service p {
+		font-size: 0.77rem;
+	}
+
+	.company .container {
+		display: block;
+	}
+
+	.about p {
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+		font-size: 0.77rem;
+		
+	}
+
+
+}
